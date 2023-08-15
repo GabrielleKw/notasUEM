@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Notas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Yater Calculadora de Notas</h1>
+        <label>Quantas atividades online você fez?</label>
+        <input type="number" id="numActivities" min="0">
+        <div id="activities" class="hidden"></div>
+        <div id="presencialSection" class="hidden">
+            <label>Insira a nota da sua prova presencial:</label>
+            <input type="number" id="presencial" step="0.1" min="0" max="10">
+            <button id="calculate">Calcular</button>
+        </div>
+        <p id="result" class="hidden"></p>
+
+
+        <div class="signature">
+        <p> Me chamo Gabrielle Siqueira, desenvolvi essa plataforma com intuito de ajudar vocês. Peço a quem puder me seguir em meu Linkedin 
+        <a href="https://www.linkedin.com/in/gabriellekwsiqueira/">
+            <img src="img/link.avif" alt="LinkedIn" width="23cm" height="23cm">        </a>
+        </p>    
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
